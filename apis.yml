@@ -1,7 +1,25 @@
 aid: zugata
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zugata.png
 name: Zugata
-description: Zugata is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zugata was a San Francisco-based continuous performance-management and peer-feedback
+  SaaS company, backed by Canaan Partners and others. Its platform let employees give and
+  receive real-time, skill-based feedback and driver-of-performance insights for coaching
+  and reviews. Culture Amp acquired Zugata in 2019 and folded its peer-feedback capabilities
+  into the Culture Amp employee-experience platform; the standalone Zugata product and website
+  (zugata.com) have since been retired. The domain still resolves NS and Proofpoint MX records
+  (email routing) but serves no website, developer portal, documentation, or public API. No API
+  surface exists to enrich — this profile is retained as a historical portfolio-company record.
 url: https://raw.githubusercontent.com/api-evangelist/zugata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,28 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: culture-amp
+x-acquired-year: '2019'
+x-live-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Performance Management
+- Employee Feedback
+- HR Tech
+- SaaS
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
